@@ -3,8 +3,7 @@
 Ce dépôt héberge **uniquement les versions publiées** de l'application
 Daily Wallpaper pour Windows (installateurs et fichiers de mise à jour).
 
-Le code source se trouve dans le dépôt privé
-[emyakiritsugu2005-pixel/daily-wallpaper](https://github.com/emyakiritsugu2005-pixel/daily-wallpaper).
+Le code source se trouve dans un dépôt non public
 
 ## 📥 Télécharger
 
@@ -33,14 +32,6 @@ par `electron-updater`.
 > peut afficher un avertissement à l'installation — c'est normal, cliquez
 > "Informations complémentaires" → "Exécuter quand même".
 
-## 🛠️ Notes techniques
-
-- Les releases sont créées automatiquement par GitHub Actions (workflow
-  "Publier Daily Wallpaper" dans le dépôt source) lorsqu'un tag `vX.Y.Z` est poussé.
-- **Ne pas modifier les fichiers de release à la main** : le prochain build
-  écraserait les métadonnées.
-- Les versions antérieures à l'ajout de l'updater ne peuvent pas se mettre à
-  jour seules : installer la dernière version une fois manuellement.
 
 ---
 Auteur : Devemya
